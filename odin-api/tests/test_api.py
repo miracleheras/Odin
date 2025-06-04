@@ -12,5 +12,5 @@ def test_lighthouses_endpoint(client):
     assert response.status_code == 200
 
 def test_images_endpoint(client):
-    response = client.get("/api/images")
+    response = client.get("/api/image")
     assert response.status_code == 200 

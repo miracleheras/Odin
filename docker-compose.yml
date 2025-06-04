@@ -1,0 +1,16 @@
+services:
+  odin-api:
+    build: ./odin-api
+    container_name: odin-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./odin-api:/app
+
+  odin-ui:
+    build: ./odin-ui
+    container_name: odin-ui
+    ports:
+      - "3000:80"
+    depends_on:
+      - odin-api
