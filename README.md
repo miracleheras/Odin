@@ -47,3 +47,8 @@ npm test
 docker compose up
 ```
 
+## 4. Deployment Plan for ODIN
+
+You can find the deployment plan in this document.
+
+https://docs.google.com/document/d/1kp5jibWs9ZfS_SmZ5Qai6auJi3LZnJJFr9BKYX93x4o/edit?tab=t.0
